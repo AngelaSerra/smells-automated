@@ -1,0 +1,17 @@
+Base64  freenet.support.Base64
+DSA freenet.crypt.DSA
+fred(BitArray-TEST) freenet.support.BitArray
+fred(HexUtil-TEST)  freenet.support.HexUtil
+fred(HTMLEncoderDecoder-TEST)  freenet.support.HTMLEncoder
+fred(HTMLEncoderDecoder-TEST)  freenet.support.HTMLDecoder
+fred(HTMLNode-TEST) freenet.support.HTMLNode
+fred(LRUHashtable-TEST) freenet.support.LRUHashtable
+fred(LRUQueue-TEST) freenet.support.LRUQueue
+fred(MultiValueTable-TEST)  freenet.support.MultiValueTable
+fred(SimpleFieldSet-TEST)   freenet.support.SimpleFieldSet
+fred(SizeUtil-TEST) freenet.support.SizeUtil
+fred(TimeUtil-TEST) freenet.support.TimeUtil
+fred(URIPreEncoder-TEST)    freenet.support.URIPreEncoder
+fred(URLDecoderEncoder-TEST)    freenet.support.URLEncoder
+fred(URLDecoderEncoder-TEST)    freenet.support.URLDecoder
+fred(UTFUtils-TEST) freenet.utils.UTFUtil

@@ -1,0 +1,16 @@
+--2018-11-13 11:46:56--  https://sites.google.com/site/saktiabdel/JTExpert/JTExpert-1.4.jar?attredirects=0
+Risoluzione di sites.google.com (sites.google.com)... 172.217.168.46, 2a00:1450:400a:802::200e
+Connessione a sites.google.com (sites.google.com)|172.217.168.46|:443... connesso.
+Richiesta HTTP inviata, in attesa di risposta... 302 Moved Temporarily
+Posizione: https://726d63b8-a-62cb3a1a-s-sites.googlegroups.com/site/saktiabdel/JTExpert/JTExpert-1.4.jar?attachauth=ANoY7crL4SzPHNNmjHIF8JbYcq7gnE8lwBEL46Q7JBZWil1C9WHEz6xyErpCo2K9dmg6BmIsSsXH7gFwFLl_5tK_uUzWXe9R-co6j-q0fB24-nAb4tRW_YBJysL8T9fBskX7JZPxk9qTvZJK6AiAaL1hm32Q31eNQvLreMiLeDEvbE7dEGDctW0iBuux6L1yLBELS0tqicziqnGVkn49H_5h-yR0O1_5xgKmypUEh9GijVr_EBikMzk%3D&attredirects=0 [segue]
+--2018-11-13 11:46:57--  https://726d63b8-a-62cb3a1a-s-sites.googlegroups.com/site/saktiabdel/JTExpert/JTExpert-1.4.jar?attachauth=ANoY7crL4SzPHNNmjHIF8JbYcq7gnE8lwBEL46Q7JBZWil1C9WHEz6xyErpCo2K9dmg6BmIsSsXH7gFwFLl_5tK_uUzWXe9R-co6j-q0fB24-nAb4tRW_YBJysL8T9fBskX7JZPxk9qTvZJK6AiAaL1hm32Q31eNQvLreMiLeDEvbE7dEGDctW0iBuux6L1yLBELS0tqicziqnGVkn49H_5h-yR0O1_5xgKmypUEh9GijVr_EBikMzk%3D&attredirects=0
+Risoluzione di 726d63b8-a-62cb3a1a-s-sites.googlegroups.com (726d63b8-a-62cb3a1a-s-sites.googlegroups.com)... 173.194.79.137, 2a00:1450:4013:c05::89
+Connessione a 726d63b8-a-62cb3a1a-s-sites.googlegroups.com (726d63b8-a-62cb3a1a-s-sites.googlegroups.com)|173.194.79.137|:443... connesso.
+Richiesta HTTP inviata, in attesa di risposta... 200 OK
+Lunghezza: 300827 (294K) [application/java-archive]
+Salvataggio in: "JTExpert-1.4.jar?attredirects=0"
+
+JTExpert-1.4.jar?attredirects=0   0%[                                                       ]       0  --.-KB/s               JTExpert-1.4.jar?attredirects=0  16%[========>                                              ]  49.38K   241KB/s               JTExpert-1.4.jar?attredirects=0  87%[===============================================>       ] 257.38K   636KB/s               JTExpert-1.4.jar?attredirects=0 100%[======================================================>] 293.78K   706KB/s    in 0.4s    
+
+2018-11-13 11:46:57 (706 KB/s) - "JTExpert-1.4.jar?attredirects=0" salvato [300827/300827]
+
