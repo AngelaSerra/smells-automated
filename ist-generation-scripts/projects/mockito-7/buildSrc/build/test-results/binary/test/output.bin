@@ -1,0 +1,34 @@
+h07:39:23.606 [Test worker] INFO  o.m.r.n.vcs.GitContributionsProvider - Fetching v1.10.10 from the repo
+v07:39:23.611 [Test worker] INFO  o.m.r.n.vcs.GitContributionsProvider - Loading all commits between v1.10.10 and HEAD
+h07:39:23.638 [Test worker] INFO  o.m.r.n.vcs.GitContributionsProvider - Fetching v1.10.10 from the repo
+v07:39:23.639 [Test worker] INFO  o.m.r.n.vcs.GitContributionsProvider - Loading all commits between v1.10.10 and HEAD
+h07:39:23.641 [Test worker] INFO  o.m.r.n.vcs.GitContributionsProvider - Fetching v1.10.10 from the repo
+v07:39:23.641 [Test worker] INFO  o.m.r.n.vcs.GitContributionsProvider - Loading all commits between v1.10.10 and HEAD
+('[07:39:23.911 [Test worker] INFO  o.m.r.exec.DefaultProcessRunner - Executing command: [ls]
+-,÷07:39:24.034 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit5865388814719443497/junit3383251059646528234/zip-1.zip with /tmp/junit5865388814719443497/junit3383251059646528234/zip-2.zip
+-,W07:39:24.039 [Test worker] INFO  o.m.release.comparison.ZipCompare - 4 entries matched
+-,÷07:39:24.040 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit5865388814719443497/junit3383251059646528234/zip-2.zip with /tmp/junit5865388814719443497/junit3383251059646528234/zip-1.zip
+-,W07:39:24.041 [Test worker] INFO  o.m.release.comparison.ZipCompare - 4 entries matched
+-,÷07:39:24.041 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit5865388814719443497/junit3383251059646528234/zip-6.zip with /tmp/junit5865388814719443497/junit3383251059646528234/zip-7.zip
+-,W07:39:24.041 [Test worker] INFO  o.m.release.comparison.ZipCompare - 0 entries matched
+-,÷07:39:24.042 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit5865388814719443497/junit3383251059646528234/zip-7.zip with /tmp/junit5865388814719443497/junit3383251059646528234/zip-6.zip
+-,W07:39:24.042 [Test worker] INFO  o.m.release.comparison.ZipCompare - 0 entries matched
+-,÷07:39:24.043 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit5865388814719443497/junit3383251059646528234/zip-1.zip with /tmp/junit5865388814719443497/junit3383251059646528234/zip-3.zip
+-,^07:39:24.043 [Test worker] INFO  o.m.release.comparison.ZipCompare - x/y/4.txt does not match
+-,W07:39:24.043 [Test worker] INFO  o.m.release.comparison.ZipCompare - 3 entries matched
+-,]07:39:24.043 [Test worker] INFO  o.m.release.comparison.ZipCompare - 1 entries did not match
+-,÷07:39:24.044 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit5865388814719443497/junit3383251059646528234/zip-1.zip with /tmp/junit5865388814719443497/junit3383251059646528234/zip-4.zip
+-,ù07:39:24.044 [Test worker] INFO  o.m.release.comparison.ZipCompare - x/y/4.txt not found in /tmp/junit5865388814719443497/junit3383251059646528234/zip-4.zip
+-,W07:39:24.044 [Test worker] INFO  o.m.release.comparison.ZipCompare - 3 entries matched
+-,]07:39:24.045 [Test worker] INFO  o.m.release.comparison.ZipCompare - 1 entries did not match
+-,÷07:39:24.045 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit5865388814719443497/junit3383251059646528234/zip-1.zip with /tmp/junit5865388814719443497/junit3383251059646528234/zip-5.zip
+-,ô07:39:24.045 [Test worker] INFO  o.m.release.comparison.ZipCompare - x.txt not found in /tmp/junit5865388814719443497/junit3383251059646528234/zip-1.zip
+-,W07:39:24.045 [Test worker] INFO  o.m.release.comparison.ZipCompare - 4 entries matched
+-,]07:39:24.046 [Test worker] INFO  o.m.release.comparison.ZipCompare - 1 entries did not match
+-,÷07:39:24.046 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit5865388814719443497/junit3383251059646528234/zip-1.zip with /tmp/junit5865388814719443497/junit3383251059646528234/zip-6.zip
+-,ô07:39:24.046 [Test worker] INFO  o.m.release.comparison.ZipCompare - 1.txt not found in /tmp/junit5865388814719443497/junit3383251059646528234/zip-6.zip
+-,õ07:39:24.046 [Test worker] INFO  o.m.release.comparison.ZipCompare - x/2.txt not found in /tmp/junit5865388814719443497/junit3383251059646528234/zip-6.zip
+-,ù07:39:24.046 [Test worker] INFO  o.m.release.comparison.ZipCompare - x/y/3.txt not found in /tmp/junit5865388814719443497/junit3383251059646528234/zip-6.zip
+-,ù07:39:24.046 [Test worker] INFO  o.m.release.comparison.ZipCompare - x/y/4.txt not found in /tmp/junit5865388814719443497/junit3383251059646528234/zip-6.zip
+-,W07:39:24.046 [Test worker] INFO  o.m.release.comparison.ZipCompare - 0 entries matched
+-,]07:39:24.046 [Test worker] INFO  o.m.release.comparison.ZipCompare - 4 entries did not match

@@ -1,0 +1,33 @@
+* EvoSuite 1.0.6
+* Configuration: EvoSuite
+* Going to generate test cases for class: org.mockito.internal.invocation.InvocationMatcher
+[MASTER] 11:57:38.491 [main] ERROR ResourceList - Error while reading jar file /home/ubuntu/Scrivania/ubuntu/IdeaProjects/smells-automated/ist-generation-scripts/projects/mockito-1/.gradle_local_home/wrapper/dists/gradle-2.2.1-all/7mkrsca6otmnie2qq7g1ovh3bm/gradle-2.2.1/samples/userguide/ant/useAntType/libs/test.jar: zip file is empty
+java.util.zip.ZipException: zip file is empty
+	at java.util.zip.ZipFile.open(Native Method) ~[na:1.8.0_191]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225) ~[na:1.8.0_191]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155) ~[na:1.8.0_191]
+	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[na:1.8.0_191]
+	at java.util.jar.JarFile.<init>(JarFile.java:103) ~[na:1.8.0_191]
+	at org.evosuite.classpath.ResourceList$Cache.getJar(ResourceList.java:115) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.classpath.ResourceList.scanJar(ResourceList.java:590) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.classpath.ResourceList.addEntry(ResourceList.java:527) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.classpath.ResourceList.initCache(ResourceList.java:503) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.classpath.ResourceList.getCache(ResourceList.java:485) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.classpath.ResourceList.hasClass(ResourceList.java:186) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.executionmode.TestGeneration.findTargetClass(TestGeneration.java:201) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.executionmode.TestGeneration.generateTests(TestGeneration.java:216) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.executionmode.TestGeneration.executeTestGeneration(TestGeneration.java:79) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.EvoSuite.parseCommandLine(EvoSuite.java:269) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.EvoSuite.main(EvoSuite.java:302) [evosuite-1.0.6.jar:1.0.6]
+[MASTER] 11:57:38.494 [main] ERROR EvoSuite - Fatal crash on main EvoSuite process. Class  using seed 1000. Configuration id : EvoSuite
+java.lang.NullPointerException: null
+	at org.evosuite.classpath.ResourceList.scanJar(ResourceList.java:592) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.classpath.ResourceList.addEntry(ResourceList.java:527) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.classpath.ResourceList.initCache(ResourceList.java:503) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.classpath.ResourceList.getCache(ResourceList.java:485) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.classpath.ResourceList.hasClass(ResourceList.java:186) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.executionmode.TestGeneration.findTargetClass(TestGeneration.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.executionmode.TestGeneration.generateTests(TestGeneration.java:216) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.executionmode.TestGeneration.executeTestGeneration(TestGeneration.java:79) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.EvoSuite.parseCommandLine(EvoSuite.java:269) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.EvoSuite.main(EvoSuite.java:302) ~[evosuite-1.0.6.jar:1.0.6]

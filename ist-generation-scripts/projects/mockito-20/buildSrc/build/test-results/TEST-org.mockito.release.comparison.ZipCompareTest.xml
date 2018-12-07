@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.release.comparison.ZipCompareTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-12-05T15:46:09" hostname="ubuntu-QOSMIO-X70-B" time="0.08">
+  <properties/>
+  <testcase name="compares zips" classname="org.mockito.release.comparison.ZipCompareTest" time="0.074"/>
+  <testcase name="fails early when any of the zips cannot be opened" classname="org.mockito.release.comparison.ZipCompareTest" time="0.006"/>
+  <system-out><![CDATA[07:46:09.717 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit3875830867253256886/junit8585682973848663096/zip-1.zip with /tmp/junit3875830867253256886/junit8585682973848663096/zip-2.zip
+07:46:09.719 [Test worker] INFO  o.m.release.comparison.ZipCompare - 4 entries matched
+07:46:09.719 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit3875830867253256886/junit8585682973848663096/zip-2.zip with /tmp/junit3875830867253256886/junit8585682973848663096/zip-1.zip
+07:46:09.720 [Test worker] INFO  o.m.release.comparison.ZipCompare - 4 entries matched
+07:46:09.720 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit3875830867253256886/junit8585682973848663096/zip-6.zip with /tmp/junit3875830867253256886/junit8585682973848663096/zip-7.zip
+07:46:09.721 [Test worker] INFO  o.m.release.comparison.ZipCompare - 0 entries matched
+07:46:09.722 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit3875830867253256886/junit8585682973848663096/zip-7.zip with /tmp/junit3875830867253256886/junit8585682973848663096/zip-6.zip
+07:46:09.722 [Test worker] INFO  o.m.release.comparison.ZipCompare - 0 entries matched
+07:46:09.723 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit3875830867253256886/junit8585682973848663096/zip-1.zip with /tmp/junit3875830867253256886/junit8585682973848663096/zip-3.zip
+07:46:09.724 [Test worker] INFO  o.m.release.comparison.ZipCompare - x/y/4.txt does not match
+07:46:09.724 [Test worker] INFO  o.m.release.comparison.ZipCompare - 3 entries matched
+07:46:09.724 [Test worker] INFO  o.m.release.comparison.ZipCompare - 1 entries did not match
+07:46:09.725 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit3875830867253256886/junit8585682973848663096/zip-1.zip with /tmp/junit3875830867253256886/junit8585682973848663096/zip-4.zip
+07:46:09.725 [Test worker] INFO  o.m.release.comparison.ZipCompare - x/y/4.txt not found in /tmp/junit3875830867253256886/junit8585682973848663096/zip-4.zip
+07:46:09.725 [Test worker] INFO  o.m.release.comparison.ZipCompare - 3 entries matched
+07:46:09.725 [Test worker] INFO  o.m.release.comparison.ZipCompare - 1 entries did not match
+07:46:09.726 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit3875830867253256886/junit8585682973848663096/zip-1.zip with /tmp/junit3875830867253256886/junit8585682973848663096/zip-5.zip
+07:46:09.727 [Test worker] INFO  o.m.release.comparison.ZipCompare - x.txt not found in /tmp/junit3875830867253256886/junit8585682973848663096/zip-1.zip
+07:46:09.727 [Test worker] INFO  o.m.release.comparison.ZipCompare - 4 entries matched
+07:46:09.727 [Test worker] INFO  o.m.release.comparison.ZipCompare - 1 entries did not match
+07:46:09.728 [Test worker] INFO  o.m.release.comparison.ZipCompare - Comparing /tmp/junit3875830867253256886/junit8585682973848663096/zip-1.zip with /tmp/junit3875830867253256886/junit8585682973848663096/zip-6.zip
+07:46:09.728 [Test worker] INFO  o.m.release.comparison.ZipCompare - 1.txt not found in /tmp/junit3875830867253256886/junit8585682973848663096/zip-6.zip
+07:46:09.728 [Test worker] INFO  o.m.release.comparison.ZipCompare - x/2.txt not found in /tmp/junit3875830867253256886/junit8585682973848663096/zip-6.zip
+07:46:09.728 [Test worker] INFO  o.m.release.comparison.ZipCompare - x/y/3.txt not found in /tmp/junit3875830867253256886/junit8585682973848663096/zip-6.zip
+07:46:09.729 [Test worker] INFO  o.m.release.comparison.ZipCompare - x/y/4.txt not found in /tmp/junit3875830867253256886/junit8585682973848663096/zip-6.zip
+07:46:09.729 [Test worker] INFO  o.m.release.comparison.ZipCompare - 0 entries matched
+07:46:09.729 [Test worker] INFO  o.m.release.comparison.ZipCompare - 4 entries did not match
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

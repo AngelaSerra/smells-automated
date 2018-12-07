@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.release.notes.OneCategoryImprovementSetTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-12-05T15:47:00" hostname="ubuntu-QOSMIO-X70-B" time="0.067">
+  <properties/>
+  <testcase name="renders improvements" classname="org.mockito.release.notes.OneCategoryImprovementSetTest" time="0.041"/>
+  <testcase name="filters out improvements by pattern" classname="org.mockito.release.notes.OneCategoryImprovementSetTest" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

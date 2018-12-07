@@ -1,0 +1,8 @@
+[MASTER] 09:58:59.581 [main] ERROR EvoSuite - Fatal crash on main EvoSuite process. Class  using seed 1000. Configuration id : EvoSuite
+java.lang.IllegalArgumentException: Classpath element does not exist on disk at: /home/ubuntu/Scrivania/ubuntu/IdeaProjects/smells-automated/ist-generation-scripts/projects/time-10/build/classes
+	at org.evosuite.classpath.ClassPathHandler.checkIfValidClasspathEntry(ClassPathHandler.java:211) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.classpath.ClassPathHandler.getClassPath(ClassPathHandler.java:118) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.classpath.ClassPathHandler.changeTargetClassPath(ClassPathHandler.java:105) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.CommandLineParameters.handleClassPath(CommandLineParameters.java:226) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.EvoSuite.parseCommandLine(EvoSuite.java:184) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.EvoSuite.main(EvoSuite.java:302) ~[evosuite-1.0.6.jar:1.0.6]

@@ -1,0 +1,1358 @@
+* EvoSuite 1.0.6
+* Configuration: EvoSuite
+* Going to generate test cases for class: org.joda.time.format.PeriodFormatterBuilder
+* Starting client
+* Connecting to master process on port 14966
+* Analyzing classpath: 
+  - /home/ubuntu/Scrivania/ubuntu/IdeaProjects/smells-automated/ist-generation-scripts/projects/time-27/build/classes
+  - /home/ubuntu/Scrivania/ubuntu/IdeaProjects/smells-automated/ist-generation-scripts/projects/time-27/build
+  - /home/ubuntu/Scrivania/ubuntu/IdeaProjects/smells-automated/ist-generation-scripts/projects/time-27/lib/slf4j-log4j12-1.7.5.jar
+  - /home/ubuntu/Scrivania/ubuntu/IdeaProjects/smells-automated/ist-generation-scripts/projects/time-27/lib/junit-4.11.jar
+  - /home/ubuntu/Scrivania/ubuntu/IdeaProjects/smells-automated/ist-generation-scripts/projects/time-27/lib/log4j-1.2.17.jar
+  - /home/ubuntu/Scrivania/ubuntu/IdeaProjects/smells-automated/ist-generation-scripts/projects/time-27/lib/slf4j-api-1.7.5.jar
+  - /home/ubuntu/Scrivania/ubuntu/IdeaProjects/smells-automated/ist-generation-scripts/projects/time-27/lib/pitest-ant-1.4.3.jar
+  - /home/ubuntu/Scrivania/ubuntu/IdeaProjects/smells-automated/ist-generation-scripts/projects/time-27/lib/xmlpull-xpp3-1.1.4c.jar
+  - /home/ubuntu/Scrivania/ubuntu/IdeaProjects/smells-automated/ist-generation-scripts/projects/time-27/lib/hamcrest-core-1.3.jar
+  - /home/ubuntu/Scrivania/ubuntu/IdeaProjects/smells-automated/ist-generation-scripts/projects/time-27/lib/xstream-1.4.11.1.jar
+  - /home/ubuntu/Scrivania/ubuntu/IdeaProjects/smells-automated/ist-generation-scripts/projects/time-27/lib/pitest-1.4.3.jar
+  - /home/ubuntu/Scrivania/ubuntu/IdeaProjects/smells-automated/ist-generation-scripts/projects/time-27/lib/pitest-entry-1.4.3.jar
+[MASTER] 11:30:52.447 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestBaseSingleFieldPeriod$Single
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestBaseSingleFieldPeriod$Single.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.initializeTargetMethods(TestClusterGenerator.java:546) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:134) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestBaseSingleFieldPeriod$Single.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 19 common frames omitted
+[MASTER] 11:30:52.447 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.449 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestMutablePeriod_Basics$MockMutablePeriod
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestMutablePeriod_Basics$MockMutablePeriod.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.initializeTargetMethods(TestClusterGenerator.java:546) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:134) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestMutablePeriod_Basics$MockMutablePeriod.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 19 common frames omitted
+[MASTER] 11:30:52.449 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.450 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestPeriod_Basics$MockPeriod
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestPeriod_Basics$MockPeriod.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.initializeTargetMethods(TestClusterGenerator.java:546) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:134) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestPeriod_Basics$MockPeriod.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 19 common frames omitted
+[MASTER] 11:30:52.450 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.610 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestDateMidnight_Basics$MockInstant
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestDateMidnight_Basics$MockInstant.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestDateMidnight_Basics$MockInstant.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.610 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.611 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestDateTime_Basics$MockInstant
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestDateTime_Basics$MockInstant.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestDateTime_Basics$MockInstant.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.611 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.612 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestInstant_Basics$MockInstant
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestInstant_Basics$MockInstant.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestInstant_Basics$MockInstant.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.612 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.613 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestMutableDateTime_Basics$MockInstant
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestMutableDateTime_Basics$MockInstant.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestMutableDateTime_Basics$MockInstant.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.613 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.835 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.MockPartial
+java.lang.ClassNotFoundException: Class 'org/joda/time/MockPartial.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/MockPartial.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.835 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.847 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestAbstractPartial$MockPartial
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestAbstractPartial$MockPartial.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestAbstractPartial$MockPartial.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.848 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.849 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestBasePartial$MockPartial
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestBasePartial$MockPartial.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestBasePartial$MockPartial.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.849 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.850 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestLocalDateTime_Basics$MockInstant
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestLocalDateTime_Basics$MockInstant.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestLocalDateTime_Basics$MockInstant.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.850 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.851 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestLocalDate_Basics$MockInstant
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestLocalDate_Basics$MockInstant.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestLocalDate_Basics$MockInstant.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.851 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.852 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestLocalTime_Basics$MockInstant
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestLocalTime_Basics$MockInstant.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestLocalTime_Basics$MockInstant.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.852 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.853 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestMonthDay_Basics$MockMD
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestMonthDay_Basics$MockMD.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestMonthDay_Basics$MockMD.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.853 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.854 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestTimeOfDay_Basics$MockInstant
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestTimeOfDay_Basics$MockInstant.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestTimeOfDay_Basics$MockInstant.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.855 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.856 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestYearMonthDay_Basics$MockInstant
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestYearMonthDay_Basics$MockInstant.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestYearMonthDay_Basics$MockInstant.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.856 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.857 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestYearMonth_Basics$MockYM
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestYearMonth_Basics$MockYM.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestYearMonth_Basics$MockYM.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.857 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.890 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestInterval_Basics$MockInterval
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestInterval_Basics$MockInterval.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestInterval_Basics$MockInterval.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.891 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.891 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestInterval_Constructors$MockInterval
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestInterval_Constructors$MockInterval.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestInterval_Constructors$MockInterval.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.892 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.893 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestMutableInterval_Basics$MockInterval
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestMutableInterval_Basics$MockInterval.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestMutableInterval_Basics$MockInterval.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.893 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.894 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestMutableInterval_Constructors$MockInterval
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestMutableInterval_Constructors$MockInterval.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestMutableInterval_Constructors$MockInterval.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.894 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.895 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestMutableInterval_Updates$MockBadInterval
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestMutableInterval_Updates$MockBadInterval.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestMutableInterval_Updates$MockBadInterval.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.895 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.942 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.MockNullZoneChronology
+java.lang.ClassNotFoundException: Class 'org/joda/time/MockNullZoneChronology.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:764) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:947) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/MockNullZoneChronology.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.942 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.945 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestDateTime_Basics$MockEqualsChronology
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestDateTime_Basics$MockEqualsChronology.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:764) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:947) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestDateTime_Basics$MockEqualsChronology.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.945 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:52.946 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestMutableDateTime_Basics$MockEqualsChronology
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestMutableDateTime_Basics$MockEqualsChronology.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:764) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:947) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestMutableDateTime_Basics$MockEqualsChronology.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:52.946 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.001 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.convert.MockBadChronology
+java.lang.ClassNotFoundException: Class 'org/joda/time/convert/MockBadChronology.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:764) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:947) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/convert/MockBadChronology.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.002 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.009 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestDuration_Basics$MockDuration
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestDuration_Basics$MockDuration.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:764) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:947) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestDuration_Basics$MockDuration.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.009 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.011 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestDuration_Basics$MockMutableDuration
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestDuration_Basics$MockMutableDuration.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:764) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:947) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestDuration_Basics$MockMutableDuration.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.011 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.127 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.MockZone
+java.lang.ClassNotFoundException: Class 'org/joda/time/MockZone.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:764) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:947) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/MockZone.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.127 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.128 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestDateTimeZone$MockDateTimeZone
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestDateTimeZone$MockDateTimeZone.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:764) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:947) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestDateTimeZone$MockDateTimeZone.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.128 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.200 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.field.TestBaseDateTimeField$MockBaseDateTimeField
+java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestBaseDateTimeField$MockBaseDateTimeField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestBaseDateTimeField$MockBaseDateTimeField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.200 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.201 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.field.TestBaseDateTimeField$MockStandardBaseDateTimeField
+java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestBaseDateTimeField$MockStandardBaseDateTimeField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestBaseDateTimeField$MockStandardBaseDateTimeField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.201 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.202 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.field.TestOffsetDateTimeField$MockOffsetDateTimeField
+java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestOffsetDateTimeField$MockOffsetDateTimeField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestOffsetDateTimeField$MockOffsetDateTimeField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.202 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.203 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.field.TestOffsetDateTimeField$MockStandardDateTimeField
+java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestOffsetDateTimeField$MockStandardDateTimeField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestOffsetDateTimeField$MockStandardDateTimeField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.203 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.204 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.field.TestPreciseDateTimeField$MockPreciseDateTimeField
+java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestPreciseDateTimeField$MockPreciseDateTimeField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestPreciseDateTimeField$MockPreciseDateTimeField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.205 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.206 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.field.TestPreciseDateTimeField$MockStandardDateTimeField
+java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestPreciseDateTimeField$MockStandardDateTimeField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestPreciseDateTimeField$MockStandardDateTimeField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.206 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.207 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.field.TestPreciseDurationDateTimeField$MockPreciseDurationDateTimeField
+java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestPreciseDurationDateTimeField$MockPreciseDurationDateTimeField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestPreciseDurationDateTimeField$MockPreciseDurationDateTimeField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.207 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.208 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.field.TestPreciseDurationDateTimeField$MockStandardBaseDateTimeField
+java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestPreciseDurationDateTimeField$MockStandardBaseDateTimeField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestPreciseDurationDateTimeField$MockStandardBaseDateTimeField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.208 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.273 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.convert.MockUnknownCalendar
+java.lang.ClassNotFoundException: Class 'org/joda/time/convert/MockUnknownCalendar.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:789) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:985) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/convert/MockUnknownCalendar.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.273 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.488 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.TestSerialization$MockDelegatedDurationField
+java.lang.ClassNotFoundException: Class 'org/joda/time/TestSerialization$MockDelegatedDurationField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:764) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:947) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/TestSerialization$MockDelegatedDurationField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.488 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.494 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.field.TestBaseDateTimeField$MockCountingDurationField
+java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestBaseDateTimeField$MockCountingDurationField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:764) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:947) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestBaseDateTimeField$MockCountingDurationField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.494 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.495 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.field.TestPreciseDateTimeField$MockCountingDurationField
+java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestPreciseDateTimeField$MockCountingDurationField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:764) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:947) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestPreciseDateTimeField$MockCountingDurationField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.495 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.495 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.field.TestPreciseDateTimeField$MockImpreciseDurationField
+java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestPreciseDateTimeField$MockImpreciseDurationField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:764) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:947) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestPreciseDateTimeField$MockImpreciseDurationField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.495 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.496 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.field.TestPreciseDateTimeField$MockZeroDurationField
+java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestPreciseDateTimeField$MockZeroDurationField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:764) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:947) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestPreciseDateTimeField$MockZeroDurationField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.496 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.497 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.field.TestPreciseDurationDateTimeField$MockCountingDurationField
+java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestPreciseDurationDateTimeField$MockCountingDurationField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:764) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:947) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestPreciseDurationDateTimeField$MockCountingDurationField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.497 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.498 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.field.TestPreciseDurationDateTimeField$MockImpreciseDurationField
+java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestPreciseDurationDateTimeField$MockImpreciseDurationField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:764) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:947) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestPreciseDurationDateTimeField$MockImpreciseDurationField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.498 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+[MASTER] 11:30:53.499 [logback-2] ERROR ConcreteClassAnalyzer - Problem for org.joda.time.format.PeriodFormatterBuilder. Class not found: org.joda.time.field.TestPreciseDurationDateTimeField$MockZeroDurationField
+java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestPreciseDurationDateTimeField$MockZeroDurationField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:201) ~[evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:168) ~[evosuite-1.0.6.jar:1.0.6]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_191]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_191]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClassesImpl(ConcreteClassAnalyzer.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.ConcreteClassAnalyzer.getConcreteClasses(ConcreteClassAnalyzer.java:61) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependency(TestClusterGenerator.java:878) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencies(TestClusterGenerator.java:764) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.addDependencyClass(TestClusterGenerator.java:947) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.resolveDependencies(TestClusterGenerator.java:358) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:137) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:118) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.setup.DependencyAnalysis.analyzeClass(DependencyAnalysis.java:132) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.initializeTargetClass(TestSuiteGenerator.java:110) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:130) [evosuite-1.0.6.jar:1.0.6]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-1.0.6.jar:1.0.6]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.lang.ClassNotFoundException: Class 'org/joda/time/field/TestPreciseDurationDateTimeField$MockZeroDurationField.class' should be in target project, but could not be found!
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:188) ~[evosuite-1.0.6.jar:1.0.6]
+	... 20 common frames omitted
+[MASTER] 11:30:53.499 [logback-2] ERROR ConcreteClassAnalyzer - Removing class from inheritance tree
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.format.PeriodFormatterBuilder
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 659
+  - Branch 565
+  - Exception 0
+  - MutationFactory 886
+  - Output 71
+  - Method 90
+  - MethodNoException 90
+  - CBranchFitnessFactory 565
+[Progress:>                             0%] [Cov:>                                  0%]* Using seed 1000
+* Starting evolution
+[Progress:>                             0%] [Cov:=>                                 3%][Progress:>                             0%] [Cov:=>                                 5%][Progress:>                             0%] [Cov:======>                            18%][Progress:>                             0%] [Cov:======>                            19%][Progress:>                             0%] [Cov:=======>                           21%][Progress:>                             0%] [Cov:========>                          23%][Progress:>                             0%] [Cov:========>                          25%][Progress:>                             0%] [Cov:=========>                         26%][Progress:>                             1%] [Cov:=>                                 3%][Progress:>                             1%] [Cov:=>                                 5%][Progress:>                             1%] [Cov:======>                            18%][Progress:>                             1%] [Cov:======>                            19%][Progress:>                             1%] [Cov:=======>                           22%][Progress:>                             1%] [Cov:=========>                         26%][Progress:>                             1%] [Cov:==========>                        29%][Progress:>                             1%] [Cov:==========>                        30%][MASTER] 11:30:56.504 [logback-2] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+[Progress:>                             1%] [Cov:==========>                        31%][Progress:>                             1%] [Cov:============>                      36%][Progress:>                             1%] [Cov:============>                      37%][Progress:>                             2%] [Cov:=========>                         26%][Progress:>                             2%] [Cov:==========>                        30%][Progress:>                             2%] [Cov:===========>                       32%][Progress:>                             2%] [Cov:===========>                       33%][Progress:>                             3%] [Cov:=======>                           22%][Progress:>                             3%] [Cov:========>                          25%][MASTER] 11:31:00.182 [logback-2] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[Progress:>                             3%] [Cov:=========>                         26%][Progress:>                             3%] [Cov:=========>                         27%][Progress:>                             3%] [Cov:=========>                         28%][Progress:>                             3%] [Cov:==========>                        29%][Progress:>                             3%] [Cov:===========>                       33%][Progress:>                             3%] [Cov:============>                      37%][Progress:=>                            4%] [Cov:============>                      35%][Progress:=>                            4%] [Cov:============>                      36%][Progress:=>                            4%] [Cov:============>                      37%][Progress:=>                            5%] [Cov:===========>                       33%][Progress:=>                            5%] [Cov:=====================>             60%][Progress:=>                            6%] [Cov:=====================>             60%][Progress:=>                            6%] [Cov:=====================>             60%][Progress:=>                            6%] [Cov:=====================>             61%][Progress:==>                           7%] [Cov:=====================>             60%][Progress:==>                           7%] [Cov:=====================>             61%][Progress:==>                           7%] [Cov:=====================>             61%][Progress:==>                           8%] [Cov:=====================>             61%][Progress:==>                           9%] [Cov:=====================>             61%][Progress:===>                          10%] [Cov:=====================>             61%][Progress:===>                          10%] [Cov:=====================>             62%][Progress:===>                          11%] [Cov:=====================>             61%][Progress:===>                          11%] [Cov:=====================>             62%][Progress:===>                          11%] [Cov:=====================>             62%][Progress:===>                          12%] [Cov:=====================>             62%][Progress:===>                          13%] [Cov:=====================>             62%][Progress:====>                         14%] [Cov:======================>            63%][Progress:====>                         15%] [Cov:======================>            63%][Progress:====>                         16%] [Cov:======================>            63%][Progress:=====>                        17%] [Cov:======================>            63%][Progress:=====>                        18%] [Cov:======================>            63%][Progress:=====>                        18%] [Cov:======================>            63%][Progress:=====>                        19%] [Cov:======================>            63%][Progress:======>                       20%] [Cov:======================>            64%][Progress:======>                       21%] [Cov:======================>            63%][Progress:======>                       21%] [Cov:======================>            64%][Progress:======>                       21%] [Cov:======================>            64%][Progress:======>                       22%] [Cov:======================>            64%][Progress:======>                       23%] [Cov:======================>            64%][Progress:======>                       23%] [Cov:======================>            65%][Progress:=======>                      25%] [Cov:======================>            65%][Progress:=======>                      26%] [Cov:======================>            65%][Progress:========>                     27%] [Cov:======================>            65%][Progress:========>                     28%] [Cov:======================>            65%][Progress:========>                     29%] [Cov:======================>            65%][Progress:========>                     29%] [Cov:======================>            65%][Progress:=========>                    30%] [Cov:======================>            65%][Progress:=========>                    31%] [Cov:======================>            65%][Progress:=========>                    31%] [Cov:=======================>           66%][Progress:=========>                    32%] [Cov:======================>            65%][Progress:=========>                    32%] [Cov:=======================>           66%][Progress:=========>                    33%] [Cov:=======================>           66%][Progress:==========>                   35%] [Cov:=======================>           66%][Progress:==========>                   36%] [Cov:=======================>           66%][Progress:===========>                  37%] [Cov:=======================>           66%][Progress:===========>                  38%] [Cov:=======================>           66%][Progress:===========>                  39%] [Cov:=======================>           66%][Progress:============>                 40%] [Cov:=======================>           66%][Progress:============>                 40%] [Cov:=======================>           67%][Progress:============>                 41%] [Cov:=======================>           66%][Progress:============>                 41%] [Cov:=======================>           67%][Progress:============>                 42%] [Cov:=======================>           66%][Progress:============>                 42%] [Cov:=======================>           67%][Progress:============>                 43%] [Cov:=======================>           66%][Progress:============>                 43%] [Cov:=======================>           67%][Progress:=============>                44%] [Cov:=======================>           66%][Progress:=============>                44%] [Cov:=======================>           67%][Progress:=============>                45%] [Cov:=======================>           66%][Progress:=============>                45%] [Cov:=======================>           67%][Progress:=============>                46%] [Cov:=======================>           67%][Progress:==============>               47%] [Cov:=======================>           66%][Progress:==============>               48%] [Cov:=======================>           67%][Progress:===============>              50%] [Cov:=======================>           67%][Progress:===============>              51%] [Cov:=======================>           67%][Progress:===============>              52%] [Cov:=======================>           67%][Progress:===============>              53%] [Cov:=======================>           67%][Progress:===============>              53%] [Cov:=======================>           67%][Progress:================>             54%] [Cov:=======================>           67%][Progress:================>             55%] [Cov:=======================>           67%][Progress:================>             56%] [Cov:=======================>           67%][Progress:=================>            57%] [Cov:=======================>           67%][Progress:=================>            58%] [Cov:=======================>           68%][Progress:=================>            59%] [Cov:=======================>           67%][Progress:=================>            59%] [Cov:=======================>           68%][Progress:==================>           60%] [Cov:=======================>           68%][Progress:==================>           61%] [Cov:=======================>           67%][Progress:==================>           61%] [Cov:=======================>           68%][Progress:==================>           62%] [Cov:=======================>           68%][Progress:==================>           63%] [Cov:=======================>           68%][Progress:===================>          65%] [Cov:=======================>           68%][Progress:===================>          66%] [Cov:=======================>           68%][Progress:===================>          66%] [Cov:=======================>           68%][Progress:====================>         67%] [Cov:=======================>           68%][Progress:====================>         68%] [Cov:=======================>           68%][Progress:====================>         69%] [Cov:=======================>           68%][Progress:=====================>        70%] [Cov:=======================>           68%][Progress:=====================>        71%] [Cov:=======================>           68%][Progress:=====================>        72%] [Cov:=======================>           68%][Progress:=====================>        73%] [Cov:=======================>           68%][Progress:======================>       74%] [Cov:========================>          69%][Progress:======================>       75%] [Cov:=======================>           68%][Progress:======================>       76%] [Cov:=======================>           68%][Progress:======================>       76%] [Cov:========================>          69%][Progress:=======================>      77%] [Cov:=======================>           68%][Progress:=======================>      77%] [Cov:========================>          69%][Progress:=======================>      77%] [Cov:=======================>           68%][Progress:=======================>      77%] [Cov:========================>          69%][Progress:=======================>      78%] [Cov:=======================>           68%][Progress:=======================>      78%] [Cov:========================>          69%][Progress:=======================>      78%] [Cov:========================>          69%][Progress:=======================>      79%] [Cov:=======================>           68%][Progress:=======================>      79%] [Cov:========================>          69%][Progress:========================>     80%] [Cov:=======================>           68%][Progress:========================>     80%] [Cov:========================>          69%][Progress:========================>     81%] [Cov:========================>          69%][Progress:========================>     81%] [Cov:========================>          70%][Progress:========================>     81%] [Cov:========================>          71%][Progress:========================>     82%] [Cov:========================>          69%][Progress:========================>     83%] [Cov:========================>          71%][Progress:=========================>    84%] [Cov:========================>          70%][Progress:=========================>    84%] [Cov:========================>          71%][Progress:=========================>    85%] [Cov:========================>          70%][Progress:=========================>    85%] [Cov:========================>          71%][Progress:=========================>    86%] [Cov:========================>          71%][Progress:==========================>   87%] [Cov:========================>          71%][Progress:==========================>   88%] [Cov:========================>          71%][Progress:==========================>   89%] [Cov:========================>          71%][Progress:===========================>  90%] [Cov:========================>          70%][Progress:===========================>  90%] [Cov:========================>          71%][Progress:===========================>  91%] [Cov:========================>          71%][Progress:===========================>  92%] [Cov:========================>          71%][Progress:===========================>  93%] [Cov:========================>          71%][Progress:============================> 94%] [Cov:========================>          71%][Progress:============================> 95%] [Cov:========================>          71%][Progress:============================> 96%] [Cov:========================>          71%][Progress:============================> 96%] [Cov:=========================>         72%][Progress:=============================>97%] [Cov:========================>          71%][Progress:=============================>98%] [Cov:=========================>         72%][Progress:=============================>99%] [Cov:========================>          71%][Progress:=============================>99%] [Cov:=========================>         72%][Progress:==============================100%] [Cov:=========================>         72%][Progress:==============================100%] [Cov:=========================>         72%][Progress:==============================100%] [Cov:=========================>         74%]
+* Search finished after 183s and 53 generations, 38295 statements, best individual has fitness: 1560.6453407542347
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 78%
+* Total number of goals: 659
+* Number of covered goals: 512
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 63%
+* Total number of goals: 565
+* Number of covered goals: 358
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 22
+* Number of covered goals: 22
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 71%
+* Total number of goals: 886
+* Number of covered goals: 630
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 49%
+* Total number of goals: 71
+* Number of covered goals: 35
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 98%
+* Total number of goals: 90
+* Number of covered goals: 88
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 94%
+* Total number of goals: 90
+* Number of covered goals: 85
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 56%
+* Total number of goals: 565
+* Number of covered goals: 314
+* Generated 118 tests with total length 561
+* Resulting test suite's coverage: 75% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 11:35:13.454 [logback-1] WARN  SimpleMutationAssertionGenerator - Assertion minimization is taking too long (0.6764333333333333% of time used, but only 52/118 tests minimized), falling back to using all assertions
+* Resulting test suite's mutation score: 16%
+* Compiling and checking tests
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'PeriodFormatterBuilder_ESTest' to /home/ubuntu/Scrivania/ubuntu/IdeaProjects/smells-automated/ist-generation-scripts/evosuite/tests/s1000/time-27/evosuite-tests
+* Done!
+
+* Computation finished
