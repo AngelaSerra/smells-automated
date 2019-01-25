@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.release.notes.internal.ImprovementsPrinterIntegrationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-24T15:40:55" hostname="ubuntu-QOSMIO-X70-B" time="0.132">
+  <properties/>
+  <testcase name="should print formatted change list" classname="org.mockito.release.notes.internal.ImprovementsPrinterIntegrationTest" time="0.13"/>
+  <testcase name="should print formatted change list for no changes" classname="org.mockito.release.notes.internal.ImprovementsPrinterIntegrationTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

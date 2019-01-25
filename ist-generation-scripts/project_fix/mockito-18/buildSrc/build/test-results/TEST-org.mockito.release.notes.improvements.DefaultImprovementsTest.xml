@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.release.notes.improvements.DefaultImprovementsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-24T15:33:02" hostname="ubuntu-QOSMIO-X70-B" time="0.019">
+  <properties/>
+  <testcase name="empty improvements" classname="org.mockito.release.notes.improvements.DefaultImprovementsTest" time="0.013"/>
+  <testcase name="with improvements" classname="org.mockito.release.notes.improvements.DefaultImprovementsTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

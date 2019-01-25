@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.mockito.release.notes.vcs.ContributionTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-01-24T15:35:36" hostname="ubuntu-QOSMIO-X70-B" time="0.06">
+  <properties/>
+  <testcase name="accumulates commits" classname="org.mockito.release.notes.vcs.ContributionTest" time="0.02"/>
+  <testcase name="can be sorted by number of commits" classname="org.mockito.release.notes.vcs.ContributionTest" time="0.032"/>
+  <testcase name="has String representation" classname="org.mockito.release.notes.vcs.ContributionTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
